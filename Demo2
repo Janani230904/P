@@ -64,3 +64,10 @@ java -jar jenkins.war --httpPort=8081
 open in local host 
 click on setting in that credentials put ur docker username and password and id as dockerhub-cred which is specified in pipeline code
 go to new item pipe line select scm git repo url add credenials and then build
+
+
+
+for webhook
+sudo snap install ngrok
+ngrok --version
+ngrok http 8083
